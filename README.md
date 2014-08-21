@@ -1,6 +1,8 @@
-# Open::Iconic::Rails
+# Open Iconic Rails
 
-TODO: Write a gem description
+##### Open Iconic is the open source sibling of [Iconic](http://useiconic.com). It is a hyper-legible collection of 223 icons with a tiny footprint&mdash;ready to use with Bootstrap and Foundation. [View the collection](http://useiconic.com/open#icons)
+
+##### Open Iconic Rails provides a view helper for placing SVG icons within your template files.
 
 ## Installation
 
@@ -20,7 +22,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+###### open_iconic :svg_class, :icon_name
+
+open_iconic :icon, :account_login
+
+or
+
+open_iconic "icon", "account-login"
+
+```
+  <svg class="icon" viewBox="0 0 8 8">
+    <use class="icon-align-left" xlink:href="/assets/open-iconic.min.svg#account-login">
+    </use>
+  </svg>
+```
 
 ## Contributing
 
