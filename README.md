@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-###### open_iconic :svg_class, :icon_name
+##### open_iconic :svg_class, :icon_name
 
 open_iconic :icon, :account_login
 
@@ -36,6 +36,12 @@ open_iconic "icon", "account-login"
     </use>
   </svg>
 ```
+
+## Todo
+
+1. Add sample code for bootstrap & foundation
+2. Explore adding aria tags for accessibility
+3. Possibly add support for the other icon formats (icon font, img sprites)
 
 ## Contributing
 
