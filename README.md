@@ -32,7 +32,7 @@ open_iconic "icon", "account-login"
 
 ```
   <svg class="icon" viewBox="0 0 8 8">
-    <use class="icon-align-left" xlink:href="/assets/open-iconic.min.svg#account-login">
+    <use class="icon-account-login" xlink:href="/assets/open-iconic.min.svg#account-login">
     </use>
   </svg>
 ```
