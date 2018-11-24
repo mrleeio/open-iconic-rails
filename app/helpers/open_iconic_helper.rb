@@ -51,7 +51,7 @@ module OpenIconicHelper
 
     if icons.include? icon
       content_tag :svg, nil, class: svg_class, viewBox: '0 0 8 8' do
-        concat content_tag(:use, nil, class: 'icon-' + icon, 'xlink:href' => asset_path('open-iconic.min.svg#' + icon))
+        concat content_tag(:use, nil, class: 'icon-' + icon, 'xlink:href' => asset_path('open-iconic.svg#' + icon))
       end
     else
       content_tag :div, "Icon #{icon} does not exist"
